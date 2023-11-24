@@ -1,0 +1,231 @@
+PS C:\Users\User\Desktop\fans only\fans-patrons-v23> composer install
+Installing dependencies from lock file (including require-dev)
+Verifying lock file contents can be installed on current platform.
+Your lock file does not contain a compatible set of packages. Please run composer update.
+
+  Problem 1
+    - Root composer.json requires php ^7.1.3 but your php version (8.2.4) does not satisfy that requirement.
+  Problem 2
+    - beyondcode/laravel-comments is locked to version 1.1.0 and an update of this package was not requested.
+    - beyondcode/laravel-comments 1.1.0 requires php ^7.2 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 3
+    - gliterd/backblaze-b2 is locked to version 1.4.2 and an update of this package was not requested.
+    - gliterd/backblaze-b2 1.4.2 requires php ^7.2 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 4
+    - gliterd/laravel-backblaze-b2 is locked to version 1.2.1 and an update of this package was not requested.
+    - gliterd/laravel-backblaze-b2 1.2.1 requires php ^7.1.8 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 5
+    - livewire/livewire is locked to version v1.3.5 and an update of this package was not requested.
+    - livewire/livewire v1.3.5 requires php ^7.1.3 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 6
+    - mhetreramesh/flysystem-backblaze is locked to version 1.5.2 and an update of this package was not requested.
+    - mhetreramesh/flysystem-backblaze 1.5.2 requires php ^7.1.8 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 7
+    - paragonie/random_compat is locked to version v9.99.99 and an update of this package was not requested.
+    - paragonie/random_compat v9.99.99 requires php ^7 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 8
+    - transbank/transbank-sdk is locked to version 1.10.1 and an update of this package was not requested.
+    - transbank/transbank-sdk 1.10.1 requires ext-soap * -> it is missing from your system. Install or enable PHP's soap extension.
+  Problem 9
+    - beyondcode/laravel-dump-server is locked to version 1.3.0 and an update of this package was not requested.
+    - beyondcode/laravel-dump-server 1.3.0 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 10
+    - fzaninotto/faker is locked to version v1.9.1 and an update of this package was not requested.
+    - fzaninotto/faker v1.9.1 requires php ^5.3.3 || ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 11
+    - nunomaduro/collision is locked to version v2.1.1 and an update of this package was not requested.
+    - nunomaduro/collision v2.1.1 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 12
+    - phar-io/manifest is locked to version 1.0.3 and an update of this package was not requested.
+    - phar-io/manifest 1.0.3 requires php ^5.6 || ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 13
+    - phar-io/version is locked to version 2.0.1 and an update of this package was not requested.
+    - phar-io/version 2.0.1 requires php ^5.6 || ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 14
+    - phpspec/prophecy is locked to version 1.12.1 and an update of this package was not requested.
+    - phpspec/prophecy 1.12.1 requires php ^7.2 || ~8.0, <8.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 15
+    - phpunit/php-code-coverage is locked to version 6.1.4 and an update of this package was not requested.
+    - phpunit/php-code-coverage 6.1.4 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 16
+    - phpunit/php-file-iterator is locked to version 2.0.2 and an update of this package was not requested.
+    - phpunit/php-file-iterator 2.0.2 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 17
+    - phpunit/php-timer is locked to version 2.1.2 and an update of this package was not requested.
+    - phpunit/php-timer 2.1.2 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 18
+    - phpunit/php-token-stream is locked to version 3.1.1 and an update of this package was not requested.
+    - phpunit/php-token-stream 3.1.1 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 19
+    - phpunit/phpunit is locked to version 7.5.20 and an update of this package was not requested.
+    - phpunit/phpunit 7.5.20 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 20
+    - sebastian/code-unit-reverse-lookup is locked to version 1.0.1 and an update of this package was not requested.
+    - sebastian/code-unit-reverse-lookup 1.0.1 requires php ^5.6 || ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 21
+    - sebastian/comparator is locked to version 3.0.2 and an update of this package was not requested.
+    - sebastian/comparator 3.0.2 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 22
+    - sebastian/diff is locked to version 3.0.2 and an update of this package was not requested.
+    - sebastian/diff 3.0.2 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 23
+    - sebastian/environment is locked to version 4.2.3 and an update of this package was not requested.
+    - sebastian/environment 4.2.3 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 24
+    - sebastian/exporter is locked to version 3.1.2 and an update of this package was not requested.
+    - sebastian/exporter 3.1.2 requires php ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 25
+    - sebastian/global-state is locked to version 2.0.0 and an update of this package was not requested.
+    - sebastian/global-state 2.0.0 requires php ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 26
+    - sebastian/object-enumerator is locked to version 3.0.3 and an update of this package was not requested.
+    - sebastian/object-enumerator 3.0.3 requires php ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 27
+    - sebastian/object-reflector is locked to version 1.1.1 and an update of this package was not requested.
+    - sebastian/object-reflector 1.1.1 requires php ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 28
+    - sebastian/recursion-context is locked to version 3.0.0 and an update of this package was not requested.
+    - sebastian/recursion-context 3.0.0 requires php ^7.0 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 29
+    - sebastian/resource-operations is locked to version 2.0.1 and an update of this package was not requested.
+    - sebastian/resource-operations 2.0.1 requires php ^7.1 -> your php version (8.2.4) does not satisfy that requirement.
+  Problem 30
+    - paragonie/random_compat v9.99.99 requires php ^7 -> your php version (8.2.4) does not satisfy that requirement.
+    - ramsey/uuid 3.9.3 requires paragonie/random_compat ^1 | ^2 | 9.99.99 -> satisfiable by paragonie/random_compat[v9.99.99].
+    - ramsey/uuid is locked to version 3.9.3 and an update of this package was not requested.
+
+To enable extensions, verify that they are enabled in your .ini files:
+    - C:\xampp\php\php.ini
+You can also run `php --ini` in a terminal to see which files are used by PHP in CLI mode.
+Alternatively, you can run Composer with `--ignore-platform-req=ext-soap` to temporarily ignore these required extensions.
+PS C:\Users\User\Desktop\fans only\fans-patrons-v23> composer update
+Loading composer repositories with package information
+Updating dependencies
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Root composer.json requires php ^7.1.3 but your php version (8.2.4) does not satisfy that requirement.
+  Problem 2
+    - gliterd/laravel-backblaze-b2[1.2.0, ..., 1.3.0] require php ^7.1.8 -> your php version (8.2.4) does not satisfy that requirement.
+    - Root composer.json requires gliterd/laravel-backblaze-b2 ^1.2 -> satisfiable by gliterd/laravel-backblaze-b2[1.2.0, 1.2.1, 1.3.0].
+
+PS C:\Users\User\Desktop\fans only\fans-patrons-v23> composer install --ignore-platform-reqs
+Installing dependencies from lock file (including require-dev)
+Verifying lock file contents can be installed on current platform.
+Nothing to install, update or remove
+Package doctrine/reflection is abandoned, you should avoid using it. Use roave/better-reflection instead.
+Package jakub-onderka/php-console-color is abandoned, you should avoid using it. Use php-parallel-lint/php-console-color instead.
+Package jakub-onderka/php-console-highlighter is abandoned, you should avoid using it. Use php-parallel-lint/php-console-highlighter instead.
+Package fzaninotto/faker is abandoned, you should avoid using it. No replacement was suggested.
+Package phpunit/php-token-stream is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+Class Transbank\Onepay\OnepayRequestBuilder located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/transbank/transbank-sdk/src\Onepay\Utils\OnepayRequestBuilder.php does not comply with psr-4 autoloading standard. Skipping.
+Class Transbank\Onepay\OnepaySignUtil located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/transbank/transbank-sdk/src\Onepay\Utils\OnepaySignUtil.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\AdvancedPayments\AdvancedPayment located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\AdvancedPayments\AdvancedPayment.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\AdvancedPayments\DisbursementRefund located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\AdvancedPayments\DisbursementRefund.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\AdvancedPayments\Refund located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\AdvancedPayments\Refund.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\AuthorizedPayment located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\AuthorizedPayment.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Card located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Card.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\CardToken located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\CardToken.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Chargeback located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Chargeback.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Customer located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Customer.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\DiscountCampaign located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\DiscountCampaign.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\InstoreOrder located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\InstoreOrder.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Invoice located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Invoice.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\MerchantOrder located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\MerchantOrder.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\OAuth located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\OAuth.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Plan located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Plan.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\POS located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\POS.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Preapproval located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Preapproval.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Preference located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Preference.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Refund located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Refund.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Documentation located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\Documentation.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Item located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\Item.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Payer located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\Payer.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Payment located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\Payment.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\PaymentMethod located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\PaymentMethod.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Tax located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\Tax.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Track located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\Track.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\TrackValues located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shared\TrackValues.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Shipments located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Shipments.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Subscription located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Entities\Subscription.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\ErrorCause located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Generic\ErrorCause.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\RecuperableError located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Generic\RecuperableError.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\SearchResultsArray located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago\Generic\SearchResultsArray.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\MercadopagoSdkTest located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/tests\MercadoPagoSdkTest.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Documentation located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\Documentation.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Item located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\Item.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Payer located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\Payer.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Payment located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\Payment.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\PaymentMethod located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\PaymentMethod.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Tax located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\Tax.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\Track located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\Track.php does not comply with psr-4 autoloading standard. Skipping.
+Class MercadoPago\TrackValues located in C:/Users/User/Desktop/fans only/fans-patrons-v23/vendor/mercadopago/dx-php/src/MercadoPago/Entities\Shared\TrackValues.php does not comply with psr-4 autoloading standard. Skipping.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+Deprecation Notice: Return type of Illuminate\Container\Container::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Container\Container.php:1232
+Deprecation Notice: Return type of Illuminate\Container\Container::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Container\Container.php:1243
+Deprecation Notice: Return type of Illuminate\Container\Container::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Container\Container.php:1255
+Deprecation Notice: Return type of Illuminate\Container\Container::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Container\Container.php:1268
+Deprecation Notice: Return type of Dotenv\Environment\AbstractVariables::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\vlucas\phpdotenv\src\Environment\AbstractVariables.php:162
+Deprecation Notice: Return type of Dotenv\Environment\AbstractVariables::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\vlucas\phpdotenv\src\Environment\AbstractVariables.php:170
+Deprecation Notice: Return type of Dotenv\Environment\AbstractVariables::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\vlucas\phpdotenv\src\Environment\AbstractVariables.php:178
+Deprecation Notice: Return type of Dotenv\Environment\AbstractVariables::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\vlucas\phpdotenv\src\Environment\AbstractVariables.php:186
+Deprecation Notice: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\phpoption\phpoption\src\PhpOption\None.php:118
+> @php artisan package:discover --ansi
+
+In Collection.php line 11:
+
+  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExi
+  sts($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWill
+  Change] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons
+  -v23\vendor\laravel\framework\src\Illuminate\Support\Collection.php:1277
+  Stack trace:
+  #0 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Support\Collection.php(
+  11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', 'C:\\Users\\User\\D.
+  ..', 1277)
+  #1 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\composer\ClassLoader.php(576): include('C:\\Users\\User\
+  \D...')
+  #2 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closur
+  e}('C:\\Users\\User\\D...')
+  #3 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Support\helpers.php(109
+  ): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+  #4 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManif
+  est.php(130): collect(Array)
+  #5 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManif
+  est.php(106): Illuminate\Foundation\PackageManifest->build()
+  #6 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManif
+  est.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+  #7 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManif
+  est.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+  #8 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\Re
+  gisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+  #9 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Application.
+  php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+  #10 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Console\Ker
+  nel.php(320): Illuminate\Foundation\Application->bootstrapWith(Array)
+  #11 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Console\Ker
+  nel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+  #12 C:\Users\User\Desktop\fans only\fans-patrons-v23\artisan(34): Illuminate\Foundation\Console\Kernel->handle(Obje
+  ct(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+  #13 {main}
+
+
+PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Support\Collection.php:1277
+Stack trace:
+#0 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Support\Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', 'C:\\Users\\User\\D...', 1277)
+#1 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\composer\ClassLoader.php(576): include('C:\\Users\\User\\D...')
+#2 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\User\\D...')
+#3 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Support\helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManifest.php(130): collect(Array)
+#5 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManifest.php(106): Illuminate\Foundation\PackageManifest->build()
+#6 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManifest.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+#7 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#8 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#9 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#10 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 C:\Users\User\Desktop\fans only\fans-patrons-v23\artisan(34): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main} in C:\Users\User\Desktop\fans only\fans-patrons-v23\vendor\laravel\framework\src\Illuminate\Support\Collection.php on line 11
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 255
+PS C:\Users\User\Desktop\fans only\fans-patrons-v23>
+PS C:\Users\User\Desktop\fans only\fans-patrons-v23>
